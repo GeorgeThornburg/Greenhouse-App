@@ -56,11 +56,11 @@ farRightHeight = 1
 
 
 def mainPage():
-	####################Retrieving DATA from Server###########################
-	url = 'http://3.15.148.184/parse/classes/Greenhouse/CukTtkNoFt'
+	#################### Retrieving DATA from Server ###########################
+	url = 'http://*.**.***.*.*/parse/classes/Greenhouse/'
 
 	headers = {
-	'X-Parse-Application-Id': 'myappID',
+	'X-Parse-Application-Id': '*****',
 	'Content-Type': 'application/json',
 	}
 	r = requests.get(url, headers=headers)
